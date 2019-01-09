@@ -1,0 +1,223 @@
+[root@shjcemem01 12112018]# rpm -evh Nokia-CEM-ETI-CTO_APP_USAGE-ADAPTATION-18_SP1.4.13-1.noarch
+Preparing...                          ################################# [100%]
+PRODUCTION_MODE is  : true
+ADAPTATION_HOME_DIRECTORY : /opt/nsn/ngdb/ContentAndAdaptation/CTO_APP_USAGE/
+Mon Nov 12 15:25:16 IST 2018 : INFO : Running adaptations via .xlsm
+Mon Nov 12 15:25:16 IST 2018 : INFO : New First value 0
+Logs for the CTO_APP_USAGE Adaptation un-installation scripts can be found at /var/logs/ngdb/ContentAndAdaptation//uninstall_CTO_APP_USAGE_adaptation_12-11-2018_15-25-16s.log
+Mon Nov 12 15:25:16 IST 2018 : Starting the uninstalltion for CTO_APP_USAGE Adaptations
+Mon Nov 12 15:25:16 IST 2018 : NOTICE : DO YOU REALLY WANT TO UNINSTALL CTO_APP_USAGE ADAPTATION (yes/no):
+yes
+Mon Nov 12 15:25:31 IST 2018 : INFO : CHECKING FOR SCHEDULER SERVICE
+Mon Nov 12 15:25:31 IST 2018 : INFO : CHECKING FOR HIVE SERVICE
+Mon Nov 12 15:25:35 IST 2018 : INFO : CHECKING FOR POSTGRES SERVICE
+Mon Nov 12 15:25:35 IST 2018 : INFO : CHECKING FOR COUCHBASE SERVICE
+Mon Nov 12 15:25:36 IST 2018 : INFO : CHECKING FOR NameNode SERVICE
+Mon Nov 12 15:25:38 IST 2018 : INFO : CHECKING FOR Hadoop Service in Safe Mode
+Mon Nov 12 15:25:40 IST 2018 : UNDEPLOYING CTO_APP_USAGE ADAPTATION USING SDK ...
+Mon Nov 12 15:25:40 IST 2018 : INFO : Command line arguments received to adapter run script are Path: /opt/nsn/ngdb/ContentAndAdaptation/CTO_APP_USAGE/, logPath: /var/logs/ngdb/ContentAndAdaptation//uninstall_CTO_APP_USAGE_adaptation_12-11-2018_15-25-16s.log, RPM Scenario: 0, Downgrade: No
+
+Using artifacts from directory : /opt/nsn/ngdb/ContentAndAdaptation/CTO_APP_USAGE/
+
+Mon Nov 12 15:25:40 IST 2018 : INFO : Running custom pre-uninstallation scripts from : /opt/nsn/ngdb/ContentAndAdaptation/CTO_APP_USAGE//scripts/uninstallation
+find: ‘/opt/nsn/ngdb/ContentAndAdaptation/CTO_APP_USAGE//scripts/uninstallation’: No such file or directory
+pre-* scripts not found in: /opt/nsn/ngdb/ContentAndAdaptation/CTO_APP_USAGE//scripts/uninstallation
+Starting adaptation undeployment using, /opt/nsn/ngdb/ContentAndAdaptation/CTO_APP_USAGE//CTO_APP_USAGE.xlsm
+        PASS    /opt/nsn/ngdb/ContentAndAdaptation/CTO_APP_USAGE//CTO_APP_USAGE.xlsm
+        Request processed successfully,please check the log file /opt/nsn/ngdb/sdk//app/log/sdk-management-service_12-11-2018_152540.log for more details.
+
+Mon Nov 12 15:26:22 IST 2018 : INFO : Running custom post-uninstallation scripts from : /opt/nsn/ngdb/ContentAndAdaptation/CTO_APP_USAGE//scripts/uninstallation
+find: ‘/opt/nsn/ngdb/ContentAndAdaptation/CTO_APP_USAGE//scripts/uninstallation’: No such file or directory
+post-* scripts not found in: /opt/nsn/ngdb/ContentAndAdaptation/CTO_APP_USAGE//scripts/uninstallation
+Mon Nov 12 15:26:22 IST 2018 : Running adaptor XML files using SDK is done
+Mon Nov 12 15:26:22 IST 2018 : INFO : CTO_APP_USAGE ADAPTATION USING SDK SUCCESSFULLY UNDEPLOYED ....
+Mon Nov 12 15:26:22 IST 2018 : INFO : UNINSTALLATION OF CTO_APP_USAGE ADAPTER MODULE COMPLETED SUCCESSFULLY
+Cleaning up / removing...
+   1:Nokia-CEM-ETI-CTO_APP_USAGE-ADAPT################################# [100%]
+   
+   
+ ====================================================================================================================
+ [root@shjcemem01 12112018]# rpm -ivh Nokia-CEM-ETI-CTO_APP_USAGE-ADAPTATION-18_SP1.4.16-1.noarch.rpm
+Preparing...                          ################################# [100%]
+Logs for the CTO_APP_USAGE Adaptations pre-installation scripts can be found at /var/logs/ngdb/ContentAndAdaptation/preinstall_CTO_APP_USAGE_adaptation_12-11-2018_15-26-52s.log
+Mon Nov 12 15:26:52 IST 2018 : Starting the Prerequisite tests for CTO_APP_USAGE Adaptations
+Mon Nov 12 15:26:52 IST 2018 : INFO : CHECKING FOR SCHEDULER SERVICE
+Mon Nov 12 15:26:52 IST 2018 : INFO : CHECKING FOR HIVE SERVICE
+Mon Nov 12 15:26:56 IST 2018 : INFO : CHECKING FOR POSTGRES SERVICE
+Mon Nov 12 15:26:57 IST 2018 : INFO : CHECKING FOR COUCHBASE SERVICE
+Mon Nov 12 15:26:57 IST 2018 : INFO : CHECKING FOR NameNode SERVICE
+Mon Nov 12 15:26:59 IST 2018 : INFO : CHECKING FOR Hadoop Service in Safe Mode
+Updating / installing...
+   1:Nokia-CEM-ETI-CTO_APP_USAGE-ADAPT################################# [100%]
+/var/tmp/rpm-tmp.w0QqwW: line 1: ?#!/bin/bash: No such file or directory
+PRODUCTION_MODE is  : true
+ADAPTATION_HOME_DIRECTORY : /opt/nsn/ngdb/ContentAndAdaptation/CTO_APP_USAGE/
+CUSTOM_ADAPTATION_HOME_DIRECTORY : /opt/nsn/ngdb/ContentAndAdaptation/customization/CTO_APP_USAGE/
+Mon Nov 12 15:27:02 IST 2018 : INFO : Started installing CTO_APP_USAGE adaptation via Excel : /opt/nsn/ngdb/ContentAndAdaptation/CTO_APP_USAGE//CTO_APP_USAGE.xlsm
+Logs for the CTO_APP_USAGE Adaptation installation scripts can be found at /var/logs/ngdb/ContentAndAdaptation/install_CTO_APP_USAGE_adaptation_12-11-2018_15-27-02s.log
+Mon Nov 12 15:27:02 IST 2018 : Starting the installation of CTO_APP_USAGE Adaptations
+Mon Nov 12 15:27:02 IST 2018 : DEPLOYING CTO_APP_USAGE ADAPTATION USING SDK ...
+Mon Nov 12 15:27:02 IST 2018 : INFO : Command line arguments received to adapter run script are Path: /opt/nsn/ngdb/ContentAndAdaptation/CTO_APP_USAGE/, logPath: /var/logs/ngdb/ContentAndAdaptation/install_CTO_APP_USAGE_adaptation_12-11-2018_15-27-02s.log, RPM Scenario: 1, Downgrade: No
+
+Using artifacts from directory : /opt/nsn/ngdb/ContentAndAdaptation/CTO_APP_USAGE/
+
+Mon Nov 12 15:27:02 IST 2018 : INFO : Running custom pre-installation scripts from : /opt/nsn/ngdb/ContentAndAdaptation/CTO_APP_USAGE//scripts/installation
+find: ‘/opt/nsn/ngdb/ContentAndAdaptation/CTO_APP_USAGE//scripts/installation’: No such file or directory
+pre-* scripts not found in: /opt/nsn/ngdb/ContentAndAdaptation/CTO_APP_USAGE//scripts/installation
+Starting adaptation deployment using, /opt/nsn/ngdb/ContentAndAdaptation/CTO_APP_USAGE//CTO_APP_USAGE.xlsm
+        PASS    /opt/nsn/ngdb/ContentAndAdaptation/CTO_APP_USAGE//CTO_APP_USAGE.xlsm
+        Request processed successfully,please check the log file /opt/nsn/ngdb/sdk//app/log/sdk-management-service_12-11-2018_152702.log for more details.
+
+Mon Nov 12 15:27:44 IST 2018 : INFO : Running custom post-installation scripts from : /opt/nsn/ngdb/ContentAndAdaptation/CTO_APP_USAGE//scripts/installation
+find: ‘/opt/nsn/ngdb/ContentAndAdaptation/CTO_APP_USAGE//scripts/installation’: No such file or directory
+post-* scripts not found in: /opt/nsn/ngdb/ContentAndAdaptation/CTO_APP_USAGE//scripts/installation
+Mon Nov 12 15:27:44 IST 2018 : Running adaptor XML files using SDK is done
+Mon Nov 12 15:27:44 IST 2018 : INFO : CTO_APP_USAGE ADAPTATION USING SDK SUCCESSFULLY DEPLOYED ....
+Mon Nov 12 15:27:44 IST 2018 : INFO : INSTALLATION OF CTO_APP_USAGE ADAPTER MODULE COMPLETED SUCCESSFULLY
+==================================================================================================================
+[root@shjcemem01 12112018]# rpm -evh Nokia-CEM-ETI-CTO_DATA_KPI-ADAPTATION-18_SP1.4.13-1.noarch
+Preparing...                          ################################# [100%]
+PRODUCTION_MODE is  : true
+ADAPTATION_HOME_DIRECTORY : /opt/nsn/ngdb/ContentAndAdaptation/CTO_DATA_KPI/
+Mon Nov 12 15:29:24 IST 2018 : INFO : Running adaptations via .xlsm
+Mon Nov 12 15:29:24 IST 2018 : INFO : New First value 0
+Logs for the CTO_DATA_KPI Adaptation un-installation scripts can be found at /var/logs/ngdb/ContentAndAdaptation//uninstall_CTO_DATA_KPI_adaptation_12-11-2018_15-29-24s.log
+Mon Nov 12 15:29:24 IST 2018 : Starting the uninstalltion for CTO_DATA_KPI Adaptations
+Mon Nov 12 15:29:24 IST 2018 : NOTICE : DO YOU REALLY WANT TO UNINSTALL CTO_DATA_KPI ADAPTATION (yes/no):
+yes
+Mon Nov 12 15:29:27 IST 2018 : INFO : CHECKING FOR SCHEDULER SERVICE
+Mon Nov 12 15:29:27 IST 2018 : INFO : CHECKING FOR HIVE SERVICE
+Mon Nov 12 15:29:31 IST 2018 : INFO : CHECKING FOR POSTGRES SERVICE
+Mon Nov 12 15:29:32 IST 2018 : INFO : CHECKING FOR COUCHBASE SERVICE
+Mon Nov 12 15:29:32 IST 2018 : INFO : CHECKING FOR NameNode SERVICE
+Mon Nov 12 15:29:34 IST 2018 : INFO : CHECKING FOR Hadoop Service in Safe Mode
+Mon Nov 12 15:29:36 IST 2018 : UNDEPLOYING CTO_DATA_KPI ADAPTATION USING SDK ...
+Mon Nov 12 15:29:36 IST 2018 : INFO : Command line arguments received to adapter run script are Path: /opt/nsn/ngdb/ContentAndAdaptation/CTO_DATA_KPI/, logPath: /var/logs/ngdb/ContentAndAdaptation//uninstall_CTO_DATA_KPI_adaptation_12-11-2018_15-29-24s.log, RPM Scenario: 0, Downgrade: No
+
+Using artifacts from directory : /opt/nsn/ngdb/ContentAndAdaptation/CTO_DATA_KPI/
+
+Mon Nov 12 15:29:36 IST 2018 : INFO : Running custom pre-uninstallation scripts from : /opt/nsn/ngdb/ContentAndAdaptation/CTO_DATA_KPI//scripts/uninstallation
+find: ‘/opt/nsn/ngdb/ContentAndAdaptation/CTO_DATA_KPI//scripts/uninstallation’: No such file or directory
+pre-* scripts not found in: /opt/nsn/ngdb/ContentAndAdaptation/CTO_DATA_KPI//scripts/uninstallation
+Starting adaptation undeployment using, /opt/nsn/ngdb/ContentAndAdaptation/CTO_DATA_KPI//CTO_DATA_KPI.xlsm
+        PASS    /opt/nsn/ngdb/ContentAndAdaptation/CTO_DATA_KPI//CTO_DATA_KPI.xlsm
+        Request processed successfully,please check the log file /opt/nsn/ngdb/sdk//app/log/sdk-management-service_12-11-2018_152936.log for more details.
+
+Mon Nov 12 15:30:07 IST 2018 : INFO : Running custom post-uninstallation scripts from : /opt/nsn/ngdb/ContentAndAdaptation/CTO_DATA_KPI//scripts/uninstallation
+find: ‘/opt/nsn/ngdb/ContentAndAdaptation/CTO_DATA_KPI//scripts/uninstallation’: No such file or directory
+post-* scripts not found in: /opt/nsn/ngdb/ContentAndAdaptation/CTO_DATA_KPI//scripts/uninstallation
+Mon Nov 12 15:30:07 IST 2018 : Running adaptor XML files using SDK is done
+Mon Nov 12 15:30:07 IST 2018 : INFO : CTO_DATA_KPI ADAPTATION USING SDK SUCCESSFULLY UNDEPLOYED ....
+Mon Nov 12 15:30:07 IST 2018 : INFO : UNINSTALLATION OF CTO_DATA_KPI ADAPTER MODULE COMPLETED SUCCESSFULLY
+Cleaning up / removing...
+   1:Nokia-CEM-ETI-CTO_DATA_KPI-ADAPTA################################# [100%]
+   ===============================================================================================================
+   [root@shjcemem01 12112018]# rpm -ivh Nokia-CEM-ETI-CTO_DATA_KPI-ADAPTATION-18_SP1.4.16-1.noarch.rpm
+Preparing...                          ################################# [100%]
+Logs for the CTO_DATA_KPI Adaptations pre-installation scripts can be found at /var/logs/ngdb/ContentAndAdaptation/preinstall_CTO_DATA_KPI_adaptation_12-11-2018_15-31-02s.log
+Mon Nov 12 15:31:02 IST 2018 : Starting the Prerequisite tests for CTO_DATA_KPI Adaptations
+Mon Nov 12 15:31:02 IST 2018 : INFO : CHECKING FOR SCHEDULER SERVICE
+Mon Nov 12 15:31:03 IST 2018 : INFO : CHECKING FOR HIVE SERVICE
+Mon Nov 12 15:31:07 IST 2018 : INFO : CHECKING FOR POSTGRES SERVICE
+Mon Nov 12 15:31:07 IST 2018 : INFO : CHECKING FOR COUCHBASE SERVICE
+Mon Nov 12 15:31:08 IST 2018 : INFO : CHECKING FOR NameNode SERVICE
+Mon Nov 12 15:31:10 IST 2018 : INFO : CHECKING FOR Hadoop Service in Safe Mode
+Updating / installing...
+   1:Nokia-CEM-ETI-CTO_DATA_KPI-ADAPTA################################# [100%]
+/var/tmp/rpm-tmp.65f6g0: line 1: ?#!/bin/bash: No such file or directory
+PRODUCTION_MODE is  : true
+ADAPTATION_HOME_DIRECTORY : /opt/nsn/ngdb/ContentAndAdaptation/CTO_DATA_KPI/
+CUSTOM_ADAPTATION_HOME_DIRECTORY : /opt/nsn/ngdb/ContentAndAdaptation/customization/CTO_DATA_KPI/
+Mon Nov 12 15:31:13 IST 2018 : INFO : Started installing CTO_DATA_KPI adaptation via Excel : /opt/nsn/ngdb/ContentAndAdaptation/CTO_DATA_KPI//CTO_DATA_KPI.xlsm
+Logs for the CTO_DATA_KPI Adaptation installation scripts can be found at /var/logs/ngdb/ContentAndAdaptation/install_CTO_DATA_KPI_adaptation_12-11-2018_15-31-13s.log
+Mon Nov 12 15:31:13 IST 2018 : Starting the installation of CTO_DATA_KPI Adaptations
+Mon Nov 12 15:31:13 IST 2018 : DEPLOYING CTO_DATA_KPI ADAPTATION USING SDK ...
+Mon Nov 12 15:31:13 IST 2018 : INFO : Command line arguments received to adapter run script are Path: /opt/nsn/ngdb/ContentAndAdaptation/CTO_DATA_KPI/, logPath: /var/logs/ngdb/ContentAndAdaptation/install_CTO_DATA_KPI_adaptation_12-11-2018_15-31-13s.log, RPM Scenario: 1, Downgrade: No
+
+Using artifacts from directory : /opt/nsn/ngdb/ContentAndAdaptation/CTO_DATA_KPI/
+
+Mon Nov 12 15:31:13 IST 2018 : INFO : Running custom pre-installation scripts from : /opt/nsn/ngdb/ContentAndAdaptation/CTO_DATA_KPI//scripts/installation
+pre-* scripts not found in: /opt/nsn/ngdb/ContentAndAdaptation/CTO_DATA_KPI//scripts/installation
+Starting adaptation deployment using, /opt/nsn/ngdb/ContentAndAdaptation/CTO_DATA_KPI//CTO_DATA_KPI.xlsm
+        PASS    /opt/nsn/ngdb/ContentAndAdaptation/CTO_DATA_KPI//CTO_DATA_KPI.xlsm
+        Request processed successfully,please check the log file /opt/nsn/ngdb/sdk//app/log/sdk-management-service_12-11-2018_153113.log for more details.
+
+Mon Nov 12 15:31:44 IST 2018 : INFO : Running custom post-installation scripts from : /opt/nsn/ngdb/ContentAndAdaptation/CTO_DATA_KPI//scripts/installation
+Executing script: /opt/nsn/ngdb/ContentAndAdaptation/CTO_DATA_KPI//scripts/installation/post_copy_threshold.sh
+Mon Nov 12 15:31:44 IST 2018 : Running adaptor XML files using SDK is done
+Mon Nov 12 15:31:44 IST 2018 : INFO : CTO_DATA_KPI ADAPTATION USING SDK SUCCESSFULLY DEPLOYED ....
+Mon Nov 12 15:31:44 IST 2018 : INFO : INSTALLATION OF CTO_DATA_KPI ADAPTER MODULE COMPLETED SUCCESSFULLY
+[root@shjcemem01 12112018]# rpm -evh Nokia-CEM-ETI-CTO_USAGE-ADAPTATION-18_SP1.4.13-1.noarch
+Preparing...                          ################################# [100%]
+PRODUCTION_MODE is  : true
+ADAPTATION_HOME_DIRECTORY : /opt/nsn/ngdb/ContentAndAdaptation/CTO_USAGE/
+Mon Nov 12 15:33:00 IST 2018 : INFO : Running adaptations via .xlsm
+Mon Nov 12 15:33:00 IST 2018 : INFO : New First value 0
+Logs for the CTO_USAGE Adaptation un-installation scripts can be found at /var/logs/ngdb/ContentAndAdaptation//uninstall_CTO_USAGE_adaptation_12-11-2018_15-33-00s.log
+Mon Nov 12 15:33:00 IST 2018 : Starting the uninstalltion for CTO_USAGE Adaptations
+Mon Nov 12 15:33:00 IST 2018 : NOTICE : DO YOU REALLY WANT TO UNINSTALL CTO_USAGE ADAPTATION (yes/no):
+yes
+Mon Nov 12 15:33:03 IST 2018 : INFO : CHECKING FOR SCHEDULER SERVICE
+Mon Nov 12 15:33:04 IST 2018 : INFO : CHECKING FOR HIVE SERVICE
+Mon Nov 12 15:33:08 IST 2018 : INFO : CHECKING FOR POSTGRES SERVICE
+Mon Nov 12 15:33:08 IST 2018 : INFO : CHECKING FOR COUCHBASE SERVICE
+Mon Nov 12 15:33:09 IST 2018 : INFO : CHECKING FOR NameNode SERVICE
+Mon Nov 12 15:33:11 IST 2018 : INFO : CHECKING FOR Hadoop Service in Safe Mode
+Mon Nov 12 15:33:13 IST 2018 : UNDEPLOYING CTO_USAGE ADAPTATION USING SDK ...
+Mon Nov 12 15:33:13 IST 2018 : INFO : Command line arguments received to adapter run script are Path: /opt/nsn/ngdb/ContentAndAdaptation/CTO_USAGE/, logPath: /var/logs/ngdb/ContentAndAdaptation//uninstall_CTO_USAGE_adaptation_12-11-2018_15-33-00s.log, RPM Scenario: 0, Downgrade: No
+
+Using artifacts from directory : /opt/nsn/ngdb/ContentAndAdaptation/CTO_USAGE/
+
+Mon Nov 12 15:33:13 IST 2018 : INFO : Running custom pre-uninstallation scripts from : /opt/nsn/ngdb/ContentAndAdaptation/CTO_USAGE//scripts/uninstallation
+find: ‘/opt/nsn/ngdb/ContentAndAdaptation/CTO_USAGE//scripts/uninstallation’: No such file or directory
+pre-* scripts not found in: /opt/nsn/ngdb/ContentAndAdaptation/CTO_USAGE//scripts/uninstallation
+Starting adaptation undeployment using, /opt/nsn/ngdb/ContentAndAdaptation/CTO_USAGE//CTO_USAGE.xlsm
+        PASS    /opt/nsn/ngdb/ContentAndAdaptation/CTO_USAGE//CTO_USAGE.xlsm
+        Request processed successfully,please check the log file /opt/nsn/ngdb/sdk//app/log/sdk-management-service_12-11-2018_153313.log for more details.
+
+Mon Nov 12 15:33:37 IST 2018 : INFO : Running custom post-uninstallation scripts from : /opt/nsn/ngdb/ContentAndAdaptation/CTO_USAGE//scripts/uninstallation
+find: ‘/opt/nsn/ngdb/ContentAndAdaptation/CTO_USAGE//scripts/uninstallation’: No such file or directory
+post-* scripts not found in: /opt/nsn/ngdb/ContentAndAdaptation/CTO_USAGE//scripts/uninstallation
+Mon Nov 12 15:33:37 IST 2018 : Running adaptor XML files using SDK is done
+Mon Nov 12 15:33:37 IST 2018 : INFO : CTO_USAGE ADAPTATION USING SDK SUCCESSFULLY UNDEPLOYED ....
+Mon Nov 12 15:33:37 IST 2018 : INFO : UNINSTALLATION OF CTO_USAGE ADAPTER MODULE COMPLETED SUCCESSFULLY
+Cleaning up / removing...
+   1:Nokia-CEM-ETI-CTO_USAGE-ADAPTATIO################################# [100%]
+[root@shjcemem01 12112018]# rpm -ivh Nokia-CEM-ETI-CTO_USAGE-ADAPTATION-18_SP1.4.16-1.noarch.rpm
+Preparing...                          ################################# [100%]
+Logs for the CTO_USAGE Adaptations pre-installation scripts can be found at /var/logs/ngdb/ContentAndAdaptation/preinstall_CTO_USAGE_adaptation_12-11-2018_15-33-55s.log
+Mon Nov 12 15:33:55 IST 2018 : Starting the Prerequisite tests for CTO_USAGE Adaptations
+Mon Nov 12 15:33:55 IST 2018 : INFO : CHECKING FOR SCHEDULER SERVICE
+Mon Nov 12 15:33:56 IST 2018 : INFO : CHECKING FOR HIVE SERVICE
+Mon Nov 12 15:34:00 IST 2018 : INFO : CHECKING FOR POSTGRES SERVICE
+Mon Nov 12 15:34:00 IST 2018 : INFO : CHECKING FOR COUCHBASE SERVICE
+Mon Nov 12 15:34:00 IST 2018 : INFO : CHECKING FOR NameNode SERVICE
+Mon Nov 12 15:34:03 IST 2018 : INFO : CHECKING FOR Hadoop Service in Safe Mode
+Updating / installing...
+   1:Nokia-CEM-ETI-CTO_USAGE-ADAPTATIO################################# [100%]
+/var/tmp/rpm-tmp.Z9OEfz: line 1: ?#!/bin/bash: No such file or directory
+PRODUCTION_MODE is  : true
+ADAPTATION_HOME_DIRECTORY : /opt/nsn/ngdb/ContentAndAdaptation/CTO_USAGE/
+CUSTOM_ADAPTATION_HOME_DIRECTORY : /opt/nsn/ngdb/ContentAndAdaptation/customization/CTO_USAGE/
+Mon Nov 12 15:34:05 IST 2018 : INFO : Started installing CTO_USAGE adaptation via Excel : /opt/nsn/ngdb/ContentAndAdaptation/CTO_USAGE//CTO_USAGE.xlsm
+Logs for the CTO_USAGE Adaptation installation scripts can be found at /var/logs/ngdb/ContentAndAdaptation/install_CTO_USAGE_adaptation_12-11-2018_15-34-05s.log
+Mon Nov 12 15:34:05 IST 2018 : Starting the installation of CTO_USAGE Adaptations
+Mon Nov 12 15:34:05 IST 2018 : DEPLOYING CTO_USAGE ADAPTATION USING SDK ...
+Mon Nov 12 15:34:05 IST 2018 : INFO : Command line arguments received to adapter run script are Path: /opt/nsn/ngdb/ContentAndAdaptation/CTO_USAGE/, logPath: /var/logs/ngdb/ContentAndAdaptation/install_CTO_USAGE_adaptation_12-11-2018_15-34-05s.log, RPM Scenario: 1, Downgrade: No
+
+Using artifacts from directory : /opt/nsn/ngdb/ContentAndAdaptation/CTO_USAGE/
+
+Mon Nov 12 15:34:05 IST 2018 : INFO : Running custom pre-installation scripts from : /opt/nsn/ngdb/ContentAndAdaptation/CTO_USAGE//scripts/installation
+find: ‘/opt/nsn/ngdb/ContentAndAdaptation/CTO_USAGE//scripts/installation’: No such file or directory
+pre-* scripts not found in: /opt/nsn/ngdb/ContentAndAdaptation/CTO_USAGE//scripts/installation
+Starting adaptation deployment using, /opt/nsn/ngdb/ContentAndAdaptation/CTO_USAGE//CTO_USAGE.xlsm
+        PASS    /opt/nsn/ngdb/ContentAndAdaptation/CTO_USAGE//CTO_USAGE.xlsm
+        Request processed successfully,please check the log file /opt/nsn/ngdb/sdk//app/log/sdk-management-service_12-11-2018_153406.log for more details.
+
+Mon Nov 12 15:34:34 IST 2018 : INFO : Running custom post-installation scripts from : /opt/nsn/ngdb/ContentAndAdaptation/CTO_USAGE//scripts/installation
+find: ‘/opt/nsn/ngdb/ContentAndAdaptation/CTO_USAGE//scripts/installation’: No such file or directory
+post-* scripts not found in: /opt/nsn/ngdb/ContentAndAdaptation/CTO_USAGE//scripts/installation
+Mon Nov 12 15:34:34 IST 2018 : Running adaptor XML files using SDK is done
+Mon Nov 12 15:34:34 IST 2018 : INFO : CTO_USAGE ADAPTATION USING SDK SUCCESSFULLY DEPLOYED ....
+Mon Nov 12 15:34:34 IST 2018 : INFO : INSTALLATION OF CTO_USAGE ADAPTER MODULE COMPLETED SUCCESSFULLY
+=======================================================================================================================
